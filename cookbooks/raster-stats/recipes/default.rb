@@ -1,4 +1,4 @@
-package "git"
+package "git-core"
 
 gem_package "bundle" do
 action :install

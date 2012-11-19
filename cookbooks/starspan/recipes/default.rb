@@ -1,4 +1,4 @@
-package "git"
+package "git-core"
 
 bash "Download and install starspan" do
 user "root"

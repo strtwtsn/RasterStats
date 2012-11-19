@@ -1,4 +1,4 @@
-remoate_file "/usr/local/src/geos-3.2.2.tar.bz2" do
+remote_file "/usr/local/src/geos-3.2.2.tar.bz2" do
 source "http://download.osgeo.org/geos/geos-3.2.2.tar.bz2"
 end
 
