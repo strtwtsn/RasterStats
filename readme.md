@@ -1,6 +1,6 @@
 ## **What is it?** ##
 
-Chef script for installing raster-stats on a Ubuntu 12.04 LTS instance.
+Chef script for installing raster-stats on a Ubuntu 10.04 LTS instance.
 
 More info on Raster-Stats here:-
 
