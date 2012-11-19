@@ -1,25 +1,13 @@
-package "subversion" do
-  action :install
+remoate_file "/usr/local/src/geos-3.2.2.tar.bz2" do
+source "http://download.osgeo.org/geos/geos-3.2.2.tar.bz2"
 end
 
-package "autoconf" do
-  action :install
-end
-
-package "libtool" do
- action :install
-end
-
-
-
-# Checkout GEOS and install
-
-bash "Checkout GEOS and Install" do
+bash "Extract and install GEOS" do
 user "root"
+cwd "/usr/local/src"
 code <<-EOH
-svn checkout http://svn.osgeo.org/geos/branches/3.2 /usr/local/src/GEOS
-cd /usr/local/src/GEOS
-./autogen.sh
+tar xvf geos-3.2.2.tar.bz2
+cd geos-3.2.2
 ./configure
 make
 make install
