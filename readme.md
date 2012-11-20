@@ -1,10 +1,11 @@
 ## **What is it?** ##
 
-Chef script for installing raster-stats on a Ubuntu 10.04 LTS instance.
+Chef script for installing raster-stats on a Ubuntu 10.04 LTS instance.  This has been tested on an ami-534a4b27 EC2 EBS instance
 
 More info on Raster-Stats here:-
 
 https://github.com/unepwcmc/raster-stats
+
 
 ## **What does it install?** ##
 
@@ -24,12 +25,8 @@ and execute it.  This will install Ruby 1.9.3, and clone the RasterStats chef co
 
 ## **What do I do after the install?** ##
 
-shotgun -o <hostname of server> config.ru
+The cookbook installs apache2.  You will need to change the server name in the /etc/apache2/sites-available/raster-stats file.
 
 
-It is important that this get's executed from the location where you downloaded rasterstats to.
 
-If you used the script then this will be
-
-/usr/local/src/rasterstats/shotgun -o config.ru
 
