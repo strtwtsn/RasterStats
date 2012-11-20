@@ -18,6 +18,7 @@ cd /usr/local/src/raster-stats
 bundle install
 sudo bash -c 'echo "include /usr/local/lib/" >> /etc/ld.so.conf'
 sudo ldconfig
+mkdir /usr/local/src/raster-stats/public
 EOH
 end
 

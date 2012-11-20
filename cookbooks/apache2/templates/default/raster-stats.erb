@@ -1,12 +1,12 @@
 # Created by railsapp-apache at 2012-10-31 15:34:28 +0000
 <VirtualHost *:80>
 
-  ServerName raster-stats.unep-wcmc.org
-  DocumentRoot /home/ubuntu/raster-stats/public
+  ServerName localhost
+  DocumentRoot /usr/local/src/raster-stats/public
 
   RackEnv production
 
-  <Directory "/home/ubuntu/raster-stats/public">
+  <Directory "/usr/local/src/raster-stats/public">
     Options FollowSymLinks
     AllowOverride None
     Order allow,deny
