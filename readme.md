@@ -6,14 +6,13 @@ More info on Raster-Stats here:-
 
 https://github.com/unepwcmc/raster-stats
 
-
 ## **What does it install?** ##
 
 GDAL 1.9.2,
 GEOS 3.2.4,
 Ruby 1.9.3,
 StarSpan and 
-Rasterstats
+Raster-stats
 
 ## **How do I start the install?** ##
 
