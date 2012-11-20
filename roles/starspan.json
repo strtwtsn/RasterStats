@@ -1,1 +1,1 @@
-{ "run_list": [ "recipe[GEOS]","recipe[GDAL]","recipe[starspan]","recipe[raster-stats]" ] }
+{ "run_list": [ "recipe[GEOS]","recipe[GDAL]","recipe[starspan]","recipe[raster-stats]","recipe[apache2]" ] }
